@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Sportypo";
+  src: url("../Nexus.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Sportypo";
-  src: url("../Nexus.ttf") format("truetype");
+  src: url("../components/Nexus.ttf") format("truetype");
 }
 
 header {
@@ -53,7 +53,16 @@ header {
     list-style: none;
     align-items: center;
   }
-  
+  .hiddenLinks{
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    color: #4b7364;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.1s ease;
+  }
   .navbar .close-btn {
     position: absolute;
     right: 20px;
@@ -89,13 +98,40 @@ header {
     cursor: pointer;
     transition: 0.15s ease;
   }
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
   
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open .Nexus {
+    display: none;
+  }
+  
+  .navbar #close .Nexus {
+    display: inherit;
+  }
+  
+  @media screen  and (min-width: 425px){
+    .hiddenLinks{
+      display: none;
+    }
+  }
   /* Media Query 500px */
   @media (max-width: 500px) {
     .navbar :is(.hamburger-btn, .close-btn) {
       display: block;
     }
-  
     .navbar {
       padding: 15px 0;
     }

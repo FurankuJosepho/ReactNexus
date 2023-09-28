@@ -1,0 +1,44 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    scroll-behavior: smooth;
+    /* border: 2px solid red; */
+  }
+  .Hero {
+    object-fit: cover;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 43rem;
+    z-index: -1;
+  }
+  .mainTitle {
+      font-family: "Sportypo";
+      font-size: 60px;
+      color: #fff;
+      text-align: center;
+      z-index: 1;
+      padding: 20px 0;
+  }
+  .mainSentence{
+      font-family: "Bebas Neue";
+      letter-spacing: 3px;
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+      padding: 10px 0;
+  }
+  .btnLinks {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      background-color: #162e2e;
+      color: #98d5be !important;
+      margin: 10px 29rem;
+      border-radius: 20px;
+      margin-bottom: 255px;
+      scroll-behavior: smooth;
+  }
