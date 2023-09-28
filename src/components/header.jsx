@@ -1,6 +1,6 @@
 import "../CSS/header.css";
 import { useState } from "react";
-import ReorderIcon from '@mui/icons-material/Reorder';
+import ReorderIcon from "@mui/icons-material/Reorder";
 import { Link } from "react-router-dom";
 function header() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -8,24 +8,37 @@ function header() {
 
   return (
     <header className="navbar">
-      <button className="hamburger-btn" onClick={() => setOpenLinks(!openLinks)}>
-        <ReorderIcon/>
+      <button
+        className="hamburger-btn"
+        onClick={() => setOpenLinks(!openLinks)}
+      >
+        <ReorderIcon />
       </button>
-      <div className="logo" id={openLinks ? "open" : "close"}>
-        <Link to='/' className="logo Nexus">NEXUS</Link>
+      <nav className="navbar">
+        <div className="leftSide" id={openLinks ? "open" : "close"}>
+        <Link to="/" className="logo">
+          <h2>NEXUS</h2>
+        </Link>
         <div className="hiddenLinks">
-        <Link to='/'>Shop</Link>
-        <Link to='/login'>Login</Link>
-        <Link to='/cart'>Cart</Link>
-        <Link to='/live'>Live</Link>
-      </div>
-      </div>
-      <div className="links">
-        <Link to='/'>Shop</Link>
-        <Link to='/login'>Login</Link>
-        <Link to='/cart'>Cart</Link>
-        <Link to='/live'>Live</Link>
-      </div>
+          <Link to="/shop">SHOP</Link>
+          <Link to="/login" id="login">
+            LOGIN
+          </Link>
+          <Link to="/cart">CART</Link>
+          <Link to="/live">LIVE</Link>
+        </div>
+        </div>
+        <ul className="links">
+          <span className="close-btn material-symbols-rounded">close</span>
+          <Link to="/shop">SHOP</Link>
+          <Link to="/login" id="login">
+            LOGIN
+          </Link>
+          <Link to="/cart">CART</Link>
+          <Link to="/live">LIVE</Link>
+          <input type="text" placeholder="Search you Games here.." />
+        </ul>
+      </nav>
     </header>
   );
 }
