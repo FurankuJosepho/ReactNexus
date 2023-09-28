@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Sportypo";
+  src: url("../Nexus.ttf") format("truetype");
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #162e2e;
+    margin-top: 100px;
+  }
+  .contact{
+    color: #98d5be;
+    text-align: center;
+    padding: 20px;
+  }
+  .contactSence{
+    font-family: 'Bebas Neue';
+    color: #98d5be;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .contact .bi {
+    color: #98d5be;
+    margin: 10px;
+  }

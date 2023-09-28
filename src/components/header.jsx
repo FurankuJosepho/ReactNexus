@@ -1,31 +1,31 @@
-import "./CSS/header.css";
+import "../CSS/header.css";
+import { useState } from "react";
+import ReorderIcon from '@mui/icons-material/Reorder';
+import { Link } from "react-router-dom";
 function header() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [openLinks, setOpenLinks] = useState(false);
+
   return (
-    <header>
-      <nav className="navbar">
-        <span className="hamburger-btn material-symbols-rounded">menu</span>
-        <a href="index.html" className="logo">
-          <h2  id="active">NEXUS</h2>
-        </a>
-        <ul className="links">
-          <span className="close-btn material-symbols-rounded">close</span>
-          <li>
-            <a href="#">SHOP</a>
-          </li>
-          <li>
-            <a href="login.html">
-              LOGIN
-            </a>
-          </li>
-          <li>
-            <a href="#">CART</a>
-          </li>
-          <li>
-            <a href="#">Lives</a>
-          </li>
-          <input type="text" placeholder="Search you Games here.." />
-        </ul>
-      </nav>
+    <header className="navbar">
+      <button className="hamburger-btn" onClick={() => setOpenLinks(!openLinks)}>
+        <ReorderIcon/>
+      </button>
+      <div className="logo" id={openLinks ? "open" : "close"}>
+        <Link to='/' className="logo Nexus">NEXUS</Link>
+        <div className="hiddenLinks">
+        <Link to='/'>Shop</Link>
+        <Link to='/login'>Login</Link>
+        <Link to='/cart'>Cart</Link>
+        <Link to='/live'>Live</Link>
+      </div>
+      </div>
+      <div className="links">
+        <Link to='/'>Shop</Link>
+        <Link to='/login'>Login</Link>
+        <Link to='/cart'>Cart</Link>
+        <Link to='/live'>Live</Link>
+      </div>
     </header>
   );
 }
