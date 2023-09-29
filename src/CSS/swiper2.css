@@ -1,0 +1,16 @@
+.NPbtn{
+  cursor: pointer;
+  margin-left: 39.3rem;
+  border-radius: 20px;
+}
+.NPbtn .Prevbtn{
+  margin-right: 2.2rem;
+}
+.NPbtn .Nextbtn,.Prevbtn{
+  border: none;
+  background-color: #162e2e;
+  color: #98d5be;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}

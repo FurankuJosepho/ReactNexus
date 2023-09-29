@@ -1,13 +1,14 @@
 import "../CSS/Home.css";
+import Swiper2 from "../components/swiper2";
 // import required modules
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import { EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import 'swiper/css/effect-fade';
 import "swiper/css/navigation";
-import "swiper/css/pagination";
+
 
 //Import the images
 import heroPages from "../assets/BG.jpg";
@@ -37,7 +38,7 @@ function home() {
           pagination={{
             clickable: true,
           }}
-          modules={[EffectFade, Navigation, Pagination]}
+          modules={[EffectFade, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -108,6 +109,10 @@ function home() {
             </div>
           </SwiperSlide>
         </Swiper>
+      </section>
+
+      <section className="container swiper2">
+          <Swiper2/>
       </section>
     </div>
   );

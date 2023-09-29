@@ -144,6 +144,81 @@
     padding: 70px 0 30px;
     margin-left: 100px;
 }
+/* Second Wrapper */
+.wrapper3{
+  position : relative;
+  margin-top: -5px;
+  max-width: 1100px;
+  max-height: 100rem;
+  height: 300px;
+  width : 100%;
+  display : flex;
+  flex-direction: row;
+  align-items : center;
+  justify-content : center;
+  padding : 10px;  
+  flex-wrap: wrap;
+}
+.wrapper3 .card3 {
+  position: relative;
+  max-width : 100rem;
+  width: 344px;
+  height : 145px;  
+  background-color : #1a1a1a;
+  margin : 30px 10px;
+  padding : -30px 25px;
+  
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.wrapper3 .card3:hover {
+  height : 180px;    
+}
+.wrapper3 .card3 .image3 {
+  position : relative;
+  width : 203px;
+  height : 150px;
+  
+  top : -10%;
+  left: 43px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index : 1;
+}
+.wrapper3 .card3 .image3 img {
+  max-width : 100%;
+  width: 271px;
+  height: 150px;
+  border-radius : 15px;
+}
+.wrapper3 .card3 .content3 {
+  position : relative;
+  top : -104px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.4s ease-in-out;
+    
+}
+.wrapper3 .card3:hover .content3 {
+   margin-top : 90px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+}
+.wrapper3 .card3 .content3 .install3{
+    background-color: #162e2e;
+    padding: 20px;
+    border-radius: 10px;
+    color: #98d5be;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+}
 
   /* Swiper */
   .swiper-button-prev,
@@ -160,4 +235,7 @@
   .swiper-button-next, .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 200px) !important;
     left: auto;
+}
+.swiperSlider2{
+  height: 300px !important;
 }
