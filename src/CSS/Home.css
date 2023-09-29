@@ -148,7 +148,7 @@
   letter-spacing: 2px;
   font-size: 30px;
   padding: -28px 0 30px;
-  margin-left: 37.4rem;
+  margin-left: 0.4rem;
 }
 .liveRecomen{
   color: #98d5be;
@@ -156,7 +156,7 @@
   letter-spacing: 2px;
   font-size: 30px;
   padding: 40px 0 30px;
-  margin-left: 34.6rem;
+  margin-left: 0.11rem;
 }
 .recommendation {
   color: #98d5be;
@@ -164,7 +164,7 @@
   letter-spacing: 2px;
   font-size: 30px;
   padding: 70px 0 30px;
-  margin-left: 35.5rem;
+  margin-left: -0.5rem;
 }
 /* Second Wrapper */
 .wrapper3 {
@@ -313,4 +313,80 @@
 .swiperSlider2 {
   height: 300px !important;
   margin-right: 28px !important;
+}
+
+
+/* Media Query for the different sizes of the screen */
+/* SM Screen */
+@media (max-width: 576px) {}
+/* MD Screen */
+@media (max-width: 768px) {}
+/* LG Screen */
+@media (max-width: 992px) {}
+/* XLG Screen */
+@media (max-width: 1200px) {
+  .container{
+    width: 1200px;
+    margin: 0 30px;
+  }
+  .wrapper {
+    margin: 8px;
+}
+.recommendation {
+  margin-left: -2.5rem;
+}
+.GenresList {
+  margin-left: -1.6rem;
+}
+.liveRecomen {
+  margin-left: -1.89rem;
+}
+.NPbtn {
+  margin-left: -2.11rem;
+}
+.swiperSlider2 {
+  margin-right: 6px !important;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 152px) !important;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 121px) !important;
+}
+}
+/* XXLG Screen */
+@media (max-width: 1400px) {
+  .container{
+    width: 1400px;
+    margin: 0 30px;
+  }
+  .recommendation {
+    margin-left: 1.5rem;
+}
+.GenresList {
+  margin-left: 1.4rem;
+}
+.liveRecomen {
+  margin-left: 1.11rem;
+}
+.NPbtn {
+  margin-left: 1.1rem;
+}
+.wrapper3 .card3 {
+  width: 287px;
+}
+.wrapper {
+  margin: 120px;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 237px) !important;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 217px) !important;
+}
+}
+@media (max-width: 1920px) {
+  .wrapper{
+    margin-left: 24rem;
+  }
 }

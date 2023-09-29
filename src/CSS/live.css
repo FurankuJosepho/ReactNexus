@@ -512,68 +512,6 @@ iframe {
   }
   /* media query */
   @media (max-width: 576px) {
-    .navbar :is(.hamburger-btn, .close-btn) {
-      display: block;
-    }
-  
-    .navbar {
-      padding: 15px 0;
-    }
-  
-    .navbar .logo img {
-      display: none;
-    }
-  
-    .navbar .logo h2 {
-      font-size: 1.4rem;
-      margin-left: 50rem;
-    }
-    .navbar .links {
-      position: fixed;
-      top: 0;
-      z-index: 10;
-      left: -100%;
-      display: block;
-      height: 447vh;
-      width: 69rem;
-      padding-top: 60px;
-      text-align: center;
-      background: #fff;
-      transition: 0.2s ease;
-    }
-  
-    .navbar .links.show-menu {
-      left: 0;
-    }
-  
-    .navbar .links a,
-    .toggle {
-      display: inline-flex;
-      margin: 20px 0;
-      font-size: 3rem;
-      color: #000;
-    }
-  
-    .navbar .links a:hover {
-      color: #98d5be;
-    }
-    .toggle {
-      height: 58px;
-      width: 114px;
-  }
-  .toggle::before {
-    height: 35px;
-    width: 35px;
-  }
-  .toggle.active::before {
-    background-color: #162e2e;
-    left: calc(100% - 39px - 14px);
-  }
-    .navbar {
-      margin: 0;
-      font-size: 0.9rem;
-      padding: 7px 10px;
-    }
     .container {
       max-width: 1050px;
       margin-left: 50px;
