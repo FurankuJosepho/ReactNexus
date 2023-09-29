@@ -139,6 +139,19 @@ function home() {
           </div>
         </div>
       </section>
+
+      <section className="container liveContainer">
+        <h4 className="liveRecomen">Live Recomendation</h4>
+          <div className="vidsLive">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/beKRlw2o5kY?si=5JID1aj-SyxCW6_U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5kS-BicsjS4?si=o8wiE7NnUrwnrUrT" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9jQQYasJTos?si=FYH2uKeziG4jVJfu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7Sz-kSsgsPQ?si=eBIjBG4GWflNXSAd" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WuSTvOeGhUo?si=y4cY1nN8I57JyK8Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zPNjdUlIOTg?si=LeywUsE8_QJQXH-4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <button>View More!</button>
+      </section>
     </div>
   );
 }
