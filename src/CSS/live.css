@@ -467,7 +467,7 @@
     filter: grayscale(0);
     opacity: 1;
   }
-  input {
+  .radio{
     display: none;
   }
   .center-container {

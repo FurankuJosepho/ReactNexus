@@ -329,9 +329,9 @@ function live() {
                 <div className="typed"><h2><span className="typing"></span></h2></div><br />
                 <div className="center-container">
                     <div className="center">
-                        <input type="radio" name="active" id="tab-1" />
-                        <input type="radio" name="active" id="tab-2" />
-                        <input type="radio" name="active" id="tab-3" />
+                        <input className="radio" type="radio" name="active" id="tab-1" />
+                        <input className="radio" type="radio" name="active" id="tab-2" />
+                        <input className="radio" type="radio" name="active" id="tab-3" />
                         <div className="sliders">
                             <label htmlFor="tab-1"><img src="https://i0.wp.com/esportsnesia.com/wp-content/uploads/2020/11/Mengenal-Genshin-Impact-696x464.jpg" alt="img-tab-1" /></label>
                             <label htmlFor="tab-2"><img src="https://webstatic.hoyoverse.com/upload/op-public/2023/08/16/0fc19e9c8bcfd7a36f91edd4b78368f9_2155858836999127928.jpeg?x-oss-process=image/resize,w_800/quality,q_80" alt="img-tab-2" /></label>
