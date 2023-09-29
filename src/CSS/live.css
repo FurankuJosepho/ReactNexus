@@ -17,13 +17,13 @@ body{
     color: #4b7364;
     font-size: 30px;
 }
-.container {
+.container1 {
     display: flex;
     border: 2px solid red;
 }
 
-.wrapper,
-.wrapper .img-area,
+.wrapper1,
+.wrapper1 .img-area,
 .social-icons a,
 .buttons button {
   margin: 0 10px 0 20px;
@@ -31,7 +31,7 @@ body{
   box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
 }
 
-.wrapper {
+.wrapper1 {
   margin: 50px 20px 50px 30px;
   position: relative;
   width: 300px;
@@ -43,7 +43,7 @@ body{
   flex-direction: column;
 }
 
-.wrapper .img-area {
+.wrapper1 .img-area {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -52,7 +52,7 @@ body{
     justify-content: center;
 }
 
-.wrapper .icon {
+.wrapper1 .icon {
     font-size: 17px;
     color: #31344b;
     position: absolute;
@@ -66,7 +66,7 @@ body{
     border-radius: 50%;
     font-size: 16px;
 }
-.wrapper .icon {
+.wrapper1 .icon {
     font-size: 17px;
     color: #31344b;
     position: absolute;
@@ -81,20 +81,20 @@ body{
     font-size: 16px;
   }
   
-  .wrapper .icon i {
+  .wrapper1 .icon i {
     position: relative;
     z-index: 9;
   }
   
-  .wrapper .icon.arrow {
+  .wrapper1 .icon.arrow {
     left: 15px;
   }
   
-  .wrapper .icon.dots {
+  .wrapper1 .icon.dots {
     right: 15px;
   }
   
-  .wrapper .img-area {
+  .wrapper1 .img-area {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -116,20 +116,20 @@ body{
     object-fit: cover;
   }
   
-  .wrapper .name {
+  .wrapper1 .name {
     font-size: 23px;
     font-weight: 500;
     color: #31344b;
     margin: 10px 0 5px 0;
   }
   
-  .wrapper .about {
+  .wrapper1 .about {
     color: #44476a;
     font-weight: 400;
     font-size: 16px;
   }
   
-  .wrapper .social-icons {
+  .wrapper1 .social-icons {
     margin: 15px 2px 25px 0;
   }
   
@@ -504,7 +504,7 @@ iframe {
     filter: grayscale(0);
     opacity: 1;
   }
-  input {
+  .radio{
     display: none;
   }
   .center-container {

@@ -2,10 +2,13 @@ import "../CSS/live.css";
 
 function live() {
     return (
-        <div className="Content1">
-            <h3 className="contentTitle">2023 Top 5 Streamer / Content Creator</h3>
-            <div className='container'>
-                <div className="wrapper">
+        <div className="content">
+            <div className='container1'>
+                <section className="contentTitle">
+                    <h3>2023 Top 5 Streamer / Content Creator</h3>
+                </section>
+                <div className="wrapper1">
+
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://s3.ap-southeast-1.amazonaws.com/cdn.vcgamers.com/news/wp-content/uploads/2023/03/oh-my-v33nus-mlbb.jpg" alt="image1" />
@@ -43,7 +46,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://pbs.twimg.com/media/FX4OCh0aQAAq0CX.jpg" alt="image2" />
@@ -81,7 +84,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://hive-event-assets.s3.us-east-2.amazonaws.com/events/898ee0e2-63d2-4feb-b11c-a088f105874e/avatar/en_US" alt="image3" />
@@ -119,7 +122,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://aphrodite.gmanetwork.com/entertainment/articles/900_675_Main_Image10_0617__20200617110945.jpg" alt="image4" />
@@ -375,9 +378,9 @@ function live() {
                 <div className="typed"><h2><span className="typing"></span></h2></div><br />
                 <div className="center-container">
                     <div className="center">
-                        <input type="radio" name="active" id="tab-1" />
-                        <input type="radio" name="active" id="tab-2" />
-                        <input type="radio" name="active" id="tab-3" />
+                        <input className="radio" type="radio" name="active" id="tab-1" />
+                        <input className="radio" type="radio" name="active" id="tab-2" />
+                        <input className="radio" type="radio" name="active" id="tab-3" />
                         <div className="sliders">
                             <label htmlFor="tab-1"><img src="https://i0.wp.com/esportsnesia.com/wp-content/uploads/2020/11/Mengenal-Genshin-Impact-696x464.jpg" alt="img-tab-1" /></label>
                             <label htmlFor="tab-2"><img src="https://webstatic.hoyoverse.com/upload/op-public/2023/08/16/0fc19e9c8bcfd7a36f91edd4b78368f9_2155858836999127928.jpeg?x-oss-process=image/resize,w_800/quality,q_80" alt="img-tab-2" /></label>

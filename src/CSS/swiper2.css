@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Sportypo";
+  src: url("../components/Nexus.ttf") format("truetype");
+}
+.NPbtn{
+  cursor: pointer;
+  font-family: "Bebas Neue";
+  margin-left: 36.6rem;
+  border-radius: 20px;
+}
+.NPbtn .Prevbtn{
+  margin-right: 2.4rem;
+}
+.NPbtn .Nextbtn,.Prevbtn{
+  border: none;
+  font-family: "Bebas Neue";
+  letter-spacing: 3px;
+  background-color: #162e2e;
+  color: #98d5be;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
