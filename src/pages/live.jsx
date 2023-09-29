@@ -2,11 +2,11 @@ import "../CSS/live.css";
 function live() {
     return (
         <div className="content">
-            <div className='container'>
+            <div className='container1'>
                 <section className="contentTitle">
                     <h3>2023 Top 5 Streamer / Content Creator</h3>
                 </section>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://s3.ap-southeast-1.amazonaws.com/cdn.vcgamers.com/news/wp-content/uploads/2023/03/oh-my-v33nus-mlbb.jpg" alt="image1" />
@@ -44,7 +44,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://pbs.twimg.com/media/FX4OCh0aQAAq0CX.jpg" alt="image2" />
@@ -82,7 +82,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://hive-event-assets.s3.us-east-2.amazonaws.com/events/898ee0e2-63d2-4feb-b11c-a088f105874e/avatar/en_US" alt="image3" />
@@ -120,7 +120,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://aphrodite.gmanetwork.com/entertainment/articles/900_675_Main_Image10_0617__20200617110945.jpg" alt="image4" />
