@@ -73,7 +73,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Action</h2>
                   <img src={Action} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -91,7 +91,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Puzzle</h2>
                   <img src={Puzzle} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -109,7 +109,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Racing</h2>
                   <img src={Racing} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -127,7 +127,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">SCi Fi</h2>
                   <img src={Scifi} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -145,7 +145,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Simulation</h2>
                   <img src={Simulation} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -163,7 +163,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle shortM">Sports</h2>
                   <img src={Sports} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -181,7 +181,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle shortM">Story</h2>
                   <img src={Story} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -199,7 +199,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Strategy</h2>
                   <img src={Strategy} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -217,7 +217,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Casual</h2>
                   <img src={Casual} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -235,7 +235,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle">Fantasy</h2>
+                  <h2 className="genreTitle">Survival</h2>
                   <img src={Survival} alt="Stray" />
                 </div>
                 <div className="content3">

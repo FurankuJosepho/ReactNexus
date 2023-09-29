@@ -6,9 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import 'swiper/css/effect-fade';
+import "swiper/css/effect-fade";
 import "swiper/css/navigation";
-
 
 //Import the images
 import heroPages from "../assets/BG.jpg";
@@ -30,9 +29,9 @@ function home() {
         </a>
       </section>
       <section className="container" id="listGames">
-      <h4 className="recommendation">Recommendation</h4>
+        <h4 className="recommendation">Recommendation</h4>
         <Swiper
-          spaceBetween={30}
+          spaceBetween={20}
           effect={"fade"}
           navigation={true}
           pagination={{
@@ -111,8 +110,34 @@ function home() {
         </Swiper>
       </section>
 
-      <section className="container swiper2">
-          <Swiper2/>
+      <section className="container swiperContainer">
+        <h4 className="GenresList">Genre&apos;s List </h4>
+        <Swiper2 />
+      </section>
+
+      <section className="container boxContainer">
+        <div className="box">
+          <div className="boxes">
+            <h2 className="boxesTitle">
+              <a href="">Latest Games</a>
+            </h2>
+          </div>
+          <div className="boxes">
+            <h2 className="boxesTitle">
+              <a href="">Specials</a>
+            </h2>
+          </div>
+          <div className="boxes">
+            <h2 className="boxesTitle">
+              <a href="">Free Games</a>
+            </h2>
+          </div>
+          <div className="boxes">
+            <h2 className="boxesTitle">
+              <a href="">Most Played</a>
+            </h2>
+          </div>
+        </div>
       </section>
     </div>
   );
