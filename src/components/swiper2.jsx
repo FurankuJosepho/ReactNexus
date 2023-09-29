@@ -36,15 +36,15 @@ function swiper2() {
           },
           "@0.75": {
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 15,
           },
           "@1.00": {
             slidesPerView: 3,
-            spaceBetween: 20,
+            spaceBetween: 25,
           },
           "@1.50": {
             slidesPerView: 4,
-            spaceBetween: 30,
+            spaceBetween: 35,
           },
         }}
         modules={[Pagination]}
@@ -163,7 +163,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle shortM">Sports</h2>
+                  <h2 className="genreTitle short">Sports</h2>
                   <img src={Sports} alt="Stray" />
                 </div>
                 <div className="content3">
@@ -181,7 +181,7 @@ function swiper2() {
             <div className="card3">
               <div className="slide3">
                 <div className="image3">
-                  <h2 className="genreTitle shortM">Story</h2>
+                  <h2 className="genreTitle short">Story</h2>
                   <img src={Story} alt="Stray" />
                 </div>
                 <div className="content3">
