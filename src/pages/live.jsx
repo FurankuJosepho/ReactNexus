@@ -1,11 +1,10 @@
 import "../CSS/live.css";
+
 function live() {
     return (
-        <div className="content">
+        <div className="Content1">
+            <h3 className="contentTitle">2023 Top 5 Streamer / Content Creator</h3>
             <div className='container'>
-                <section className="contentTitle">
-                    <h3>2023 Top 5 Streamer / Content Creator</h3>
-                </section>
                 <div className="wrapper">
                     <div className="img-area">
                         <div className="inner-area">
@@ -32,15 +31,15 @@ function live() {
                         <div className="row">
                             <i className="far fa-heart"></i>
                             <i className="icon-2 fas fa-heart"></i>
-                            <span>28M</span>
+                            <span> 28M</span>
                         </div>
                         <div className="row1">
                             <i className="fas fa-user"></i>
-                            <span>35M</span>
+                            <span> 35M</span>
                         </div>
                         <div className="row2">
                             <i className="fas fa-share"></i>
-                            <span>412.8k</span>
+                            <span>812.8k</span>
                         </div>
                     </div>
                 </div>
@@ -70,15 +69,15 @@ function live() {
                         <div className="row">
                             <i className="far fa-heart"></i>
                             <i className="icon-2 fas fa-heart"></i>
-                            <span>25M</span>
+                            <span> 25M</span>
                         </div>
                         <div className="row1">
                             <i className="fas fa-user"></i>
-                            <span>32M</span>
+                            <span> 32M</span>
                         </div>
                         <div className="row2">
                             <i className="fas fa-share"></i>
-                            <span>412.8k</span>
+                            <span>912.8k</span>
                         </div>
                     </div>
                 </div>
@@ -108,7 +107,7 @@ function live() {
                         <div className="row">
                             <i className="far fa-heart"></i>
                             <i className="icon-2 fas fa-heart"></i>
-                            <span>22M</span>
+                            <span> 22M</span>
                         </div>
                         <div className="row1">
                             <i className="fas fa-user"></i>
@@ -116,7 +115,7 @@ function live() {
                         </div>
                         <div className="row2">
                             <i className="fas fa-share"></i>
-                            <span>412.8k</span>
+                            <span>612.8k</span>
                         </div>
                     </div>
                 </div>
@@ -146,22 +145,22 @@ function live() {
                         <div className="row">
                             <i className="far fa-heart"></i>
                             <i className="icon-2 fas fa-heart"></i>
-                            <span>18M</span>
+                            <span> 18M</span>
                         </div>
                         <div className="row1">
                             <i className="fas fa-user"></i>
-                            <span>25M</span>
+                            <span> 25M</span>
                         </div>
                         <div className="row2">
                             <i className="fas fa-share"></i>
-                            <span>412.8k</span>
+                            <span>712.8k</span>
                         </div>
                     </div>
                 </div>
                 <div className="wrapper">
                     <div className="img-area">
                         <div className="inner-area">
-                            <img src="https://s3.ap-southeast-1.amazonaws.com/cdn.vcgamers.com/news/wp-content/uploads/2023/03/oh-my-v33nus-mlbb.jpg" alt="image1" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_XMq0XLSO-WFmlViygg_g3zDdAHbSDYs6GtfW22bNUOlMGACpYdUl-RkGkAmpg8VATsk&usqp=CAU" alt="image5" />
                         </div>
                     </div>
                     <div className="name">Bobong Gamer</div>
@@ -184,15 +183,15 @@ function live() {
                         <div className="row">
                             <i className="far fa-heart"></i>
                             <i className="icon-2 fas fa-heart"></i>
-                            <span>28m</span>
+                            <span> 28M</span>
                         </div>
                         <div className="row1">
                             <i className="fas fa-user"></i>
-                            <span>35m</span>
+                            <span> 35M</span>
                         </div>
                         <div className="row2">
                             <i className="fas fa-share"></i>
-                            <span>412.8k</span>
+                            <span>512.8k</span>
                         </div>
                     </div>
                 </div>
@@ -285,40 +284,87 @@ function live() {
                             <h3 className="h3content3">Games Streaming Now</h3>
                         </section><br /><br />
                         <div className="flex-container content3Live">
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/oeMDMSX4zkI" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: Cherizawa</p>
+                                    <p>Games Played: Mobile Legends</p>
+                                    <p>Live Schedule: Mon-Fri 1:00PM - 5:00PM</p>
+                                </div>
                             </div>
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/KTosDIMEF24" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: Alodia Gosiengfiao</p>
+                                    <p>Games Played: Dota 2 / Mobile Legends </p>
+                                    <p>Live Schedule: Mon-Fri 10:00AM - 2:00PM</p>
+                                </div>
                             </div>
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/gUdr2QqW448" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: OhMyVeenus</p>
+                                    <p>Games Played:  Mobile Legends </p>
+                                    <p>Live Schedule: Mon-Fri 3:00PM - 6:00PM</p>
+                                </div>
                             </div>
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/dX0rsGQZcBo" frameborder="0" allowFullScreen></iframe>
-
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: Bobong Gamer</p>
+                                    <p>Games Played: Farlight 84 </p>
+                                    <p>Live Schedule: Mon-Fri 8:00AM - 12:00PM</p>
+                                </div>
                             </div>
                         </div>
                         <div className="flex-container content3Live">
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/BI7sRD4BJXU" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: ChooxTV</p>
+                                    <p>Games Played: Farlight 84</p>
+                                    <p>Live Schedule: Mon-Sat 11:00AM - 3:00PM</p>
+                                </div>
                             </div>
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/VFInsxNb0Og" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: Branon</p>
+                                    <p>Games Played: Genshin Impact </p>
+                                    <p>Live Schedule: Mon-Sat 12:00PM - 5:00PM</p>
+                                </div>
                             </div>
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/j_frRCgtZiM" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream </h5>
+                                    <p>Live Streamer: Darkness 429</p>
+                                    <p>Games Played:  Starfield </p>
+                                    <p>Live Schedule: Mon-Fri 3:00PM - 6:00PM</p>
+                                </div>
                             </div>
-                            <div>
+                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/MkWFtaXxY_s" frameborder="0" allowFullScreen></iframe>
+                                <div class="details">
+                                    <h5>Live Stream</h5>
+                                    <p>Live Streamer: BraverHighwind</p>
+                                    <p>Games Played: Sea of Stars  </p>
+                                    <p>Live Schedule: Mon-Fri 8:00AM - 12:00PM</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -340,8 +386,8 @@ function live() {
                         <div className="img-card"><img src="https://image.api.playstation.com/vulcan/img/rnd/202104/2507/Xdncb153Sz5UZMaF0X944NP5.png" alt="img-card1" />
                         </div>
                     </div>
-                    <div className="center"> 
-                    <input type="radio" name="active" id="tab-1" />
+                    <div className="center">
+                        <input type="radio" name="active" id="tab-1" />
                         <input type="radio" name="active" id="tab-2" />
                         <input type="radio" name="active" id="tab-3" />
                         <div className="sliders">
@@ -352,8 +398,8 @@ function live() {
                         <div className="img-card"><img src="https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg" alt="img-card2" />
                         </div>
                     </div>
-                    <div className="center"> 
-                    <input type="radio" name="active" id="tab-1" />
+                    <div className="center">
+                        <input type="radio" name="active" id="tab-1" />
                         <input type="radio" name="active" id="tab-2" />
                         <input type="radio" name="active" id="tab-3" />
                         <div className="sliders">
@@ -365,7 +411,6 @@ function live() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
     )
