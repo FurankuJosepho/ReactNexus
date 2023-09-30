@@ -17,7 +17,7 @@ import Mir4 from "../assets/Mir4.jpg";
 import Sos from "../assets/SOS.jpg";
 function home() {
   return (
-    <div>
+    <div className="Parent">
       <section className="container">
         <div className="heroPage">
           <img src={heroPages} alt="Heropahina" className="Hero" />
@@ -28,6 +28,7 @@ function home() {
           Play Now!
         </a>
       </section>
+      
       <section className="container" id="listGames">
         <h4 className="recommendation">Recommendation</h4>
         <Swiper

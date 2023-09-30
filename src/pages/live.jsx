@@ -287,40 +287,40 @@ function live() {
                             <h3 className="h3content3">Games Streaming Now</h3>
                         </section><br /><br />
                         <div className="flex-container content3Live">
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/oeMDMSX4zkI" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/oeMDMSX4zkI" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: Cherizawa</p>
                                     <p>Games Played: Mobile Legends</p>
                                     <p>Live Schedule: Mon-Fri 1:00PM - 5:00PM</p>
                                 </div>
                             </div>
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/KTosDIMEF24" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/KTosDIMEF24" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: Alodia Gosiengfiao</p>
                                     <p>Games Played: Dota 2 / Mobile Legends </p>
                                     <p>Live Schedule: Mon-Fri 10:00AM - 2:00PM</p>
                                 </div>
                             </div>
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/gUdr2QqW448" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/gUdr2QqW448" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: OhMyVeenus</p>
                                     <p>Games Played:  Mobile Legends </p>
                                     <p>Live Schedule: Mon-Fri 3:00PM - 6:00PM</p>
                                 </div>
                             </div>
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/dX0rsGQZcBo" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/dX0rsGQZcBo" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: Bobong Gamer</p>
                                     <p>Games Played: Farlight 84 </p>
@@ -329,40 +329,40 @@ function live() {
                             </div>
                         </div>
                         <div className="flex-container content3Live">
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/BI7sRD4BJXU" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/BI7sRD4BJXU" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: ChooxTV</p>
                                     <p>Games Played: Farlight 84</p>
                                     <p>Live Schedule: Mon-Sat 11:00AM - 3:00PM</p>
                                 </div>
                             </div>
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/VFInsxNb0Og" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/VFInsxNb0Og" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: Branon</p>
                                     <p>Games Played: Genshin Impact </p>
                                     <p>Live Schedule: Mon-Sat 12:00PM - 5:00PM</p>
                                 </div>
                             </div>
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/j_frRCgtZiM" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/j_frRCgtZiM" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream </h5>
                                     <p>Live Streamer: Darkness 429</p>
                                     <p>Games Played:  Starfield </p>
                                     <p>Live Schedule: Mon-Fri 3:00PM - 6:00PM</p>
                                 </div>
                             </div>
-                            <div class="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
+                            <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
-                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/MkWFtaXxY_s" frameborder="0" allowFullScreen></iframe>
-                                <div class="details">
+                                <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/MkWFtaXxY_s" allowFullScreen></iframe>
+                                <div className="details">
                                     <h5>Live Stream</h5>
                                     <p>Live Streamer: BraverHighwind</p>
                                     <p>Games Played: Sea of Stars  </p>
