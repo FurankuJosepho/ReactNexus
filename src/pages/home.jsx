@@ -18,7 +18,7 @@ import Sos from "../assets/SOS.jpg";
 function home() {
   return (
     <div className="Parent">
-      <section className="container">
+      <section className="container homeContainer">
         <div className="heroPage">
           <img src={heroPages} alt="Heropahina" className="Hero" />
         </div>
@@ -29,7 +29,7 @@ function home() {
         </a>
       </section>
       
-      <section className="container" id="listGames">
+      <section className="container recommendContainer" id="listGames">
         <h4 className="recommendation">Recommendation</h4>
         <Swiper
           spaceBetween={20}
