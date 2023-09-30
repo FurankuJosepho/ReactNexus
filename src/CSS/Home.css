@@ -203,15 +203,14 @@
   position: relative;
   width: 203px;
   height: 150px;
-
   top: -10%;
-  left: 43px;
+  left: 11px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .wrapper3 .card3 .image3 img {
-  max-width: 100%;
-  width: 271px;
+  max-width: 200rem;
+  width: 201px;
   height: 150px;
   border-radius: 15px;
 }
