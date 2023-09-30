@@ -125,19 +125,6 @@ header nav input {
   .navbar :is(.hamburger-btn, .close-btn) {
     display: block;
   }
-  .navbar {
-    padding: 15px 0;
-  }
-
-  .navbar .logo img {
-    display: none;
-  }
-
-  .navbar .logo h2 {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
   .navbar .links {
     position: fixed;
     top: 0;
@@ -148,28 +135,5 @@ header nav input {
     width: 100%;
     padding-top: 60px;
     text-align: center;
-    background: #fff;
-    transition: 0.2s ease;
-  }
-
-  .navbar .links.show-menu {
-    left: 0;
-  }
-
-  .navbar .links a,
-  .toggle {
-    display: inline-flex;
-    margin: 20px 0;
-    font-size: 1.2rem;
-    color: #000;
-  }
-
-  .navbar .links a:hover {
-    color: #98d5be;
-  }
-
-  .navbar {
-    font-size: 0.9rem;
-    padding: 7px 10px;
   }
 }
