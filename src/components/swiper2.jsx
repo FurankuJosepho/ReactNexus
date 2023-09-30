@@ -29,22 +29,23 @@ function swiper2() {
       <Swiper
         slidesPerView={1}
         spaceBetween={5}    
+        loop={true}
         breakpoints={{
           "@0.00": {
-            slidesPerView: 1,
-            spaceBetween: 5,
+            slidesPerView: 2,
+            spaceBetween: 4,
           },
           "@0.75": {
-            slidesPerView: 2,
-            spaceBetween: 15,
+            slidesPerView: 3,
+            spaceBetween: 14,
           },
           "@1.00": {
-            slidesPerView: 3,
-            spaceBetween: 25,
+            slidesPerView: 4,
+            spaceBetween: 24,
           },
           "@1.50": {
-            slidesPerView: 4,
-            spaceBetween: 35,
+            slidesPerView: 5,
+            spaceBetween: 34,
           },
         }}
         modules={[Pagination]}
