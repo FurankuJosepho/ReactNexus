@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 import { PRODUCTS } from "../games";
 import Product from "../components/Product";
 
@@ -17,6 +17,14 @@ const getDefaultGames = () =>{
 function ShopContextProvider(props) {
     const [gamesItems, setgamesItems] = useState(getDefaultGames());
 
+     // Load cart data from localStorage when the component mounts
+     useEffect(() => {
+        const savedCart = JSON.parse(localStorage.getItem('cart'));
+        if (savedCart) {
+            setgamesItems(savedCart);
+        }
+    }, []);
+
     const totalCartAmount = () => {
         let totalAmount = 0;
         for (const item in gamesItems){
@@ -29,10 +37,22 @@ function ShopContextProvider(props) {
     }
 
     const addToCart = (itemId) =>{
-        setgamesItems((prev) => ({...prev, [itemId]: prev[itemId] + 1}));
+        if (gamesItems[itemId] === 0) { // Check if the item is not already in the cart
+            setgamesItems((prev) => {
+                const updatedCart = { ...prev, [itemId]: (prev[itemId] || 0) + 1 };
+                localStorage.setItem('cart', JSON.stringify(updatedCart)); // Save the updated cart to localStorage
+                return updatedCart;
+            });
+        }
     }
     const removeToCart = (itemId) =>{
-        setgamesItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
+        if (gamesItems[itemId] > 0) { // Check if there's at least one item in the cart
+            setgamesItems((prev) => {
+                const updatedCart = { ...prev, [itemId]: Math.max((prev[itemId] || 0) - 1, 0) };
+                localStorage.setItem('cart', JSON.stringify(updatedCart)); // Save the updated cart to localStorage
+                return updatedCart;
+            });
+        }
     }
 
     const contextVal = {gamesItems, addToCart, removeToCart, totalCartAmount};
