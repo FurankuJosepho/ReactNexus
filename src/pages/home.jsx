@@ -1,5 +1,6 @@
 import "../CSS/Home.css";
 import Swiper2 from "../components/swiper2";
+import { useNavigate } from "react-router-dom";
 // import required modules
 import { EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,7 +16,9 @@ import Stray from "../assets/Stray.jpg";
 import Forza from "../assets/Forza.jpg";
 import Mir4 from "../assets/Mir4.jpg";
 import Sos from "../assets/SOS.jpg";
-function home() {
+function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="Parent">
       <section className="container homeContainer">
@@ -151,10 +154,10 @@ function home() {
           <iframe className="liveHomePage" width="560" height="315" src="https://www.youtube.com/embed/WuSTvOeGhUo?si=y4cY1nN8I57JyK8Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <iframe className="liveHomePage" width="560" height="315" src="https://www.youtube.com/embed/zPNjdUlIOTg?si=LeywUsE8_QJQXH-4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-          <a href="/live">View More!</a>
+          <button onClick={() => navigate('/live')}>View More!</button>
       </section>
     </div>
   );
 }
 
-export default home;
+export default Home;
