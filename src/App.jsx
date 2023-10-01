@@ -7,12 +7,12 @@ import Live from "./pages/live";
 import Store from "./pages/store";
 import Cart from "./pages/cart";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ShopContextProvide from "./context/shopContext";
+import { ShopContextProvider } from "./context/shopContext";
 
 function App() {
   return (
     <>
-      <ShopContextProvide>
+      <ShopContextProvider>
         <Router>
           <Header />
           <Routes>
@@ -24,7 +24,7 @@ function App() {
           </Routes>
         </Router>
         <Footer />
-      </ShopContextProvide>
+      </ShopContextProvider>
     </>
   );
 }
