@@ -8,7 +8,7 @@ const ShopContext = createContext(null);
 
 const getDefaultGames = () =>{
     let cart = [];
-    for (let i = 0; i < PRODUCTS.length + 0; i++) {
+    for (let i = 0; i < PRODUCTS.length + 1; i++) {
        cart[i] = 0;
     }
     return cart;
@@ -36,6 +36,13 @@ function ShopContextProvider(props) {
         return totalAmount;
     }
 
+    // call this function in the cart page to reset the localstorage you can use this and save after saving it will reset and you can now delete the line again and use this function bu using sa ussEffect hook of react
+    const resetCart = () => { // this is the logic for the reset cart local storage when ever i add new games or items in the PRODUCT.js
+        const newCart = getDefaultGames();
+        setgamesItems(newCart);
+        localStorage.setItem('cart', JSON.stringify(newCart)); // Reset the cart in localStorage
+    }
+
     const addToCart = (itemId) =>{
         if (gamesItems[itemId] === 0) { // Check if the item is not already in the cart
             setgamesItems((prev) => {
@@ -55,7 +62,7 @@ function ShopContextProvider(props) {
         }
     }
 
-    const contextVal = {gamesItems, addToCart, removeToCart, totalCartAmount};
+    const contextVal = {gamesItems, addToCart, removeToCart, totalCartAmount, resetCart};
   // eslint-disable-next-line react/prop-types
   console.log(gamesItems)
   return <ShopContext.Provider value = {contextVal}>{props.children}</ShopContext.Provider>;

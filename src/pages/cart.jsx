@@ -4,8 +4,13 @@ import { PRODUCTS } from "../games";
 import Cartitem from "../components/itemCart";
 
 function Cart() {
-  const { gamesItems, totalCartAmount } = useContext(ShopContext);
+  const { gamesItems, totalCartAmount} = useContext(ShopContext);
 const totalAmount = totalCartAmount();
+// Only use this kind of funtion when adding some items in the array so the local storage wil be reset
+// useEffect(() => {
+//     // Call resetCart when the shop page mounts to reset the cart with new items
+//     resetCart();
+// },);
   return (
     <div className="Cart">
       <div className="cartContainer">
