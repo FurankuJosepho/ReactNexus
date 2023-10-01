@@ -20,7 +20,7 @@ function header() {
           <h2>NEXUS</h2>
         </Link>
         <div className="hiddenLinks">
-          <Link to="/shop">SHOP</Link>
+          <Link to="/store">SHOP</Link>
           <Link to="/login" id="login">
             LOGIN
           </Link>
@@ -30,7 +30,7 @@ function header() {
         </div>
         <ul className="links">
           <span className="close-btn material-symbols-rounded">close</span>
-          <Link to="/shop">SHOP</Link>
+          <Link to="/store">SHOP</Link>
           <Link to="/login" id="login">
             LOGIN
           </Link>
