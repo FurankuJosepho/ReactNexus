@@ -1,0 +1,77 @@
+/* Google Fonts - Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Sportypo';
+    src: url('../Nexus.ttf') format('truetype');
+}
+
+.d-flex {
+    display: grid;
+    grid-template-columns: 252px 702px;
+    justify-content: center;
+}
+.d-flex > div {
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+.left{  
+    width: 251px;
+    height: 554px;
+    background: #162E2E;
+    border-radius: 10px;
+}
+.Name {
+    margin-top: 50px;
+}
+.right{
+    width: 703px;
+    height: 554px;
+    background: #4B7364;
+    border-radius: 10px;
+}
+.info{
+    color: #98D5BE;
+    text-align: center;
+}
+
+.editBTN , .userName,.Name, #edit-button, #save-button{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue';
+    margin: 3px 0;
+    background-color: #98D5BE;
+    width: 187px;
+    height: 30px;
+    border: 0px solid #162E2E;
+    border-radius: 10px;
+    color: #162E2E;
+}
+#profile-image{
+    margin: 5px 10px 0 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+form{
+    margin-bottom: 5px;
+}
+label{
+    padding: 30px;
+    color: #98D5BE;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue';
+    margin: 5px 0;
+    background-color: #98D5BE;
+    width: 187px;
+    height: 78px;
+    border: 0px solid #162E2E;
+    border-radius: 10px;
+    color: #162E2E;
+    display: none;
+}
+h4, p{
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue';
+}

@@ -5,7 +5,8 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Live from "./pages/live";
 import Store from "./pages/store";
-import Cart from "./pages/cart";
+import Profile from "./pages/profile";
+import Signup from "./pages/signup";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ShopContextProvider } from "./context/shopContext";
 
@@ -19,7 +20,8 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/store" exact element={<Store />} />
             <Route path="/login" exact element={<Login />} />
-            <Route path="/cart" exact element={<Cart />} />
+            <Route path="/signup" exact element={<Signup />} />
+            <Route path="/cart" exact element={<Profile />} />
             <Route path="/live" exact element={<Live />} />
           </Routes>
         </Router>

@@ -1,136 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
-@font-face {
-  font-family: "Sportypo";
-  src: url("../components/Nexus.ttf") format("truetype");
-}
-
-.container2 {
-    position: relative;
-    max-width: 800px;
-    width: 50rem;
-    margin: 0 220px;
-    background: #fff;
-    margin-top: 20px;
-    padding: 40px 30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    perspective: 2700px;
-    border: 2px solid red;
-}
-
-.container2 .cover {
-    position: absolute;
-    top: 0;
-    left: 50%;
+.forms {
     height: 100%;
-    width: 50%;
-    z-index: 98;
-    transition: all 1s ease;
-    transform-origin: left;
-    transform-style: preserve-3d;
-}
-
-.container2 #flip:checked~.cover {
-    transform: rotateY(-180deg);
-}
-
-.container2 .cover .front,
-.container2 .cover .back {
-    background-color: #4B7364;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.cover .back {
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-}
-
-.container2 .cover::before,
-.container2 .cover::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #202223;
-    opacity: 0.5;
-    z-index: 12;
-}
-
-.container2 .cover::after {
-    opacity: 0.3;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-}
-
-.container2 .cover img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: 10;
-}
-
-.container2 .cover .text {
-    position: absolute;
-    z-index: 130;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.cover .text .text-1,
-.cover .text .text-2 {
-    font-size: 26px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-}
-
-.cover .text .text-2 {
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.container .forms {
-    height: 100%;
-    width: 100%;
+    width: 40%;
+    border-radius: 20px;
+    display: inline-block;
     background: #fff;
 }
-
-.container2 .form-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.login-form{
+    margin: 56px;
 }
-
-.form-content .login-form,
-.form-content .signup-form {
-    width: calc(100% / 2 - 25px);
-}
-
 .forms .form-content .title {
     position: relative;
     font-size: 24px;
     font-weight: 500;
     color: #333;
 }
-
 .forms .form-content .title:before {
     content: '';
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 60px;
+    bottom: -5px;
     height: 3px;
-    width: 25px;
-    background: #202223;
+    width: 307px;
+    background: #20222324;
 }
 
 .forms .signup-form .title:before {
@@ -174,27 +65,23 @@
     position: absolute;
     color: #202223;
     font-size: 17px;
+    left: 10px;
 }
-
 .forms .form-content .text {
     font-size: 14px;
     font-weight: 500;
     color: #333;
 }
-
 .forms .form-content .text a {
     text-decoration: none;
 }
-
 .forms .form-content .text a:hover {
     text-decoration: underline;
 }
-
 .forms .form-content .button {
     color: #fff;
     margin-top: 40px;
 }
-
 .forms .form-content .button input {
     color: #fff;
     background: #202223;
@@ -203,26 +90,6 @@
     cursor: pointer;
     transition: all 0.4s ease;
 }
-
 .forms .form-content .button input:hover {
     background: #162E2E;
-}
-
-.forms .form-content label {
-    color: #162E2E;
-    cursor: pointer;
-}
-
-.forms .form-content label:hover {
-    text-decoration: underline;
-}
-
-.forms .form-content .login-text,
-.forms .form-content .sign-up-text {
-    text-align: center;
-    margin-top: 25px;
-}
-
-.container #flip {
-    display: none;
 }
