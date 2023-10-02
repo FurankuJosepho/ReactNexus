@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { ShopContext } from "../context/shopContext";
 import { PRODUCTS } from "../games";
 import Cartitem from "../components/itemCart";
+import "../CSS/store.css";
+
 
 function Cart() {
   const { gamesItems, totalCartAmount} = useContext(ShopContext);

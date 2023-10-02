@@ -1,12 +1,13 @@
 import  {PRODUCTS } from "../games";
 import Product from "../components/Product"
+import "../CSS/store.css";
 function store() {
   return (
-    <div>
+    <div className="storeContainer">
       <div className="shopTitle">
         <h1>Welcome to the Store</h1>
       </div>
-      <div className="products">
+      <div className="storeproducts">
         {PRODUCTS.map((product) => (
       // eslint-disable-next-line react/jsx-key
       <Product data= {product}/> 
