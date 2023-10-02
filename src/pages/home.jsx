@@ -18,7 +18,6 @@ import Mir4 from "../assets/Mir4.jpg";
 import Sos from "../assets/SOS.jpg";
 function Home() {
   const navigate = useNavigate();
-
   return (
     <div className="Parent">
       <section className="container homeContainer">
