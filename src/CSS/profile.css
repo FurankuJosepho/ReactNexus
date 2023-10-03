@@ -34,8 +34,19 @@
     color: #98D5BE;
     text-align: center;
 }
-
-.editBTN , .userName,.Name, #edit-button, #save-button{
+.editBTN .EditProf,
+.editBTN .SaveChange{
+ background-color: #162E2E;
+ color: #98D5BE;
+ font-size: 13px;
+ letter-spacing: 2px;
+ border: none;
+ padding: 13px;
+}
+.editBTN button{
+    border: none;
+}
+.userName,.Name, #edit-button, #save-button{
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Bebas Neue';
