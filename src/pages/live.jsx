@@ -160,7 +160,7 @@ function live() {
                         </div>
                     </div>
                 </div>
-                <div className="wrapper">
+                <div className="wrapper1">
                     <div className="img-area">
                         <div className="inner-area">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_XMq0XLSO-WFmlViygg_g3zDdAHbSDYs6GtfW22bNUOlMGACpYdUl-RkGkAmpg8VATsk&usqp=CAU" alt="image5" />
@@ -281,12 +281,12 @@ function live() {
             </div> */}
             {/* 3rd content */}
             <section>
-                <div className="container">
+                <div className="container1">
                     <div>
                         <section className="contentTitle3">
                             <h3 className="h3content3">Games Streaming Now</h3>
                         </section><br /><br />
-                        <div className="flex-container content3Live">
+                        <div className="LiveContentVids">
                             <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/oeMDMSX4zkI" allowFullScreen></iframe>
@@ -328,7 +328,7 @@ function live() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-container content3Live">
+                        <div className="LiveContentVids">
                             <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
                                 <iframe width={'560'} height={'315'} src="https://www.youtube.com/embed/BI7sRD4BJXU" allowFullScreen></iframe>
@@ -376,7 +376,7 @@ function live() {
             <section>
                 <div className="contentTitle4"><h3>Updates and Offers</h3></div><br /><br />
                 <div className="typed"><h2><span className="typing"></span></h2></div><br />
-                <div className="center-container">
+                <div className="center-container container1">
                     <div className="center">
                         <input className="radio" type="radio" name="active" id="tab-1" />
                         <input className="radio" type="radio" name="active" id="tab-2" />
@@ -393,7 +393,7 @@ function live() {
                         <input type="radio" name="active" id="tab-1" />
                         <input type="radio" name="active" id="tab-2" />
                         <input type="radio" name="active" id="tab-3" />
-                        <div className="sliders">
+                        <div className="sliders-lived">
                             <label htmlFor="tab-1"><img src="https://assets-prd.ignimgs.com/2023/06/09/fortnitewilds-1686353306240.jpg" alt="img-tab-1" /></label>
                             <label htmlFor="tab-2"><img src="https://cdn2.unrealengine.com/26br-keyart-noshadow-1920x1080-3358aa3ee425.jpg" alt="img-tab-2" /></label>
                             <label htmlFor="tab-3"><img src="https://cdn-0001.qstv.on.epicgames.com/zUtrywvpfYFJIvpPgH/image/screen_comp.jpeg" alt="img-tab-3" /></label>
