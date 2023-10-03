@@ -40,6 +40,10 @@ function Profile() {
         reader.readAsDataURL(file);
     }
   };
+
+  const Maintanance = () => {
+    alert("This Page is undermaintenance")
+  }
   return (
     <section className="d-flex">
       <div className="info left">
@@ -56,10 +60,10 @@ function Profile() {
         </form>
         <div className="editBTN">
           <button onClick={handleEditClick}>
-            <h4>EDIT PROFILE</h4>
+            <h4 className="EditProf">EDIT PROFILE</h4>
           </button>
           <button onClick={handleSaveClick}> 
-            <h4>SAVE CHANGES</h4>
+            <h4 className="SaveChange">SAVE CHANGES</h4>
           </button>
         </div>
       </div>
@@ -77,7 +81,7 @@ function Profile() {
         </div>
         <div className="overAll">
           <p className="totalOf">Total Purchase:₱{totalAmount}</p>
-          <button className="buytBTN">Buy</button>
+          <button className="buytBTN" onClick={Maintanance}>Buy</button>
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ function live() {
         <div className="content">
             <div className='container1'>
                 <section className="contentTitle">
-                    <h3>2023 Top 5 Streamer / Content Creator</h3>
+                    <h3 className="topStreamer">2023 Top 5 Streamer / Content Creator</h3>
                 </section>
                 <div className="wrapper1">
 
@@ -283,9 +283,7 @@ function live() {
             <section>
                 <div className="container1">
                     <div>
-                        <section className="contentTitle3">
-                            <h3 className="h3content3">Games Streaming Now</h3>
-                        </section><br /><br />
+                                                    <h3 className="h3content3">Games Streaming Now</h3>
                         <div className="LiveContentVids">
                             <div className="video-container" data-title="Live Stream 1" data-description="Description for Live Stream 1">
                                 <h4>🔴LIVE</h4>
@@ -369,48 +367,6 @@ function live() {
                                     <p>Live Schedule: Mon-Fri 8:00AM - 12:00PM</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div className="contentTitle4"><h3>Updates and Offers</h3></div><br /><br />
-                <div className="typed"><h2><span className="typing"></span></h2></div><br />
-                <div className="center-container container1">
-                    <div className="center">
-                        <input className="radio" type="radio" name="active" id="tab-1" />
-                        <input className="radio" type="radio" name="active" id="tab-2" />
-                        <input className="radio" type="radio" name="active" id="tab-3" />
-                        <div className="sliders">
-                            <label htmlFor="tab-1"><img src="https://i0.wp.com/esportsnesia.com/wp-content/uploads/2020/11/Mengenal-Genshin-Impact-696x464.jpg" alt="img-tab-1" /></label>
-                            <label htmlFor="tab-2"><img src="https://webstatic.hoyoverse.com/upload/op-public/2023/08/16/0fc19e9c8bcfd7a36f91edd4b78368f9_2155858836999127928.jpeg?x-oss-process=image/resize,w_800/quality,q_80" alt="img-tab-2" /></label>
-                            <label htmlFor="tab-3"><img src="https://videogames.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTk1NTI1NjY2MzYyMzY5NjA1/genshin-impact-anime-header-1.png" alt="img-tab-3" /></label>
-                        </div>
-                        <div className="img-card"><img src="https://image.api.playstation.com/vulcan/img/rnd/202104/2507/Xdncb153Sz5UZMaF0X944NP5.png" alt="img-card1" />
-                        </div>
-                    </div>
-                    <div className="center">
-                        <input type="radio" name="active" id="tab-1" />
-                        <input type="radio" name="active" id="tab-2" />
-                        <input type="radio" name="active" id="tab-3" />
-                        <div className="sliders-lived">
-                            <label htmlFor="tab-1"><img src="https://assets-prd.ignimgs.com/2023/06/09/fortnitewilds-1686353306240.jpg" alt="img-tab-1" /></label>
-                            <label htmlFor="tab-2"><img src="https://cdn2.unrealengine.com/26br-keyart-noshadow-1920x1080-3358aa3ee425.jpg" alt="img-tab-2" /></label>
-                            <label htmlFor="tab-3"><img src="https://cdn-0001.qstv.on.epicgames.com/zUtrywvpfYFJIvpPgH/image/screen_comp.jpeg" alt="img-tab-3" /></label>
-                        </div>
-                        <div className="img-card"><img src="https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg" alt="img-card2" />
-                        </div>
-                    </div>
-                    <div className="center">
-                        <input type="radio" name="active" id="tab-1" />
-                        <input type="radio" name="active" id="tab-2" />
-                        <input type="radio" name="active" id="tab-3" />
-                        <div className="sliders">
-                            <label htmlFor="tab-1"><img src="https://pbs.twimg.com/ext_tw_video_thumb/1650320172366942209/pu/img/DJqfvldLWucf6qzr?format=jpg&name=large" alt="img-tab-1" /></label>
-                            <label htmlFor="tab-2"><img src="https://mmoculture.com/wp-content/uploads/2020/11/Farlight-84-Game-reveal-screenshot-1.jpg" alt="img-tab-2" /></label>
-                            <label htmlFor="tab-3"><img src="https://cdn6.idcgames.com/storage/image/1465/farlight-84-ss7/default.jpg" alt="img-tab-3" /></label>
-                        </div>
-                        <div className="img-card"><img src="https://cdn1.epicgames.com/spt-assets/c5a4635b61354f8d8fd49520f58d5ece/farlight-84-oey74.jpg" alt="img-card3" />
                         </div>
                     </div>
                 </div>

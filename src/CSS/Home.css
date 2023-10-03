@@ -38,6 +38,13 @@
   font-size: 30px;
   padding: 10px 0;
 }
+.ViewMore{
+  background-color: #162e2e;
+  color: #98d5be !important;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
 .btnLinks {
   text-decoration: none;
   display: flex;

@@ -154,7 +154,7 @@ function Home() {
           <iframe className="liveHomePage" width="560" height="315" src="https://www.youtube.com/embed/WuSTvOeGhUo?si=y4cY1nN8I57JyK8Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           <iframe className="liveHomePage" width="560" height="315" src="https://www.youtube.com/embed/zPNjdUlIOTg?si=LeywUsE8_QJQXH-4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>
-          <button onClick={() => navigate('/live')}>View More!</button>
+          <button onClick={() => navigate('/live')} className="ViewMore">View More!</button>
       </section>
     </div>
   );
