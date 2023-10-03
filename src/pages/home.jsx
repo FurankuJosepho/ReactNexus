@@ -110,6 +110,7 @@ function Home() {
               </div>
             </div>
           </SwiperSlide>
+          
         </Swiper>
       </section>
 

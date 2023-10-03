@@ -10,17 +10,17 @@ function Cartitem(props) {
     const { removeToCart } = useContext(ShopContext);
     
   return (
-      <div className="productContainer">
-        <div className="productCard">
+    <div className="cart">
+      <div className="productContainer2">
           <img src={gameImages} />
-          <div className="productDescription">
-            <h4 className="productTitle">{game}</h4>
-            <p className="productPrice">₱{price}</p>
+          <div className="productDescription2">
+            <h4 className="productTitle2">{game}</h4>
+            <p className="productPrice2">₱{price}</p>
           </div>
-          <div className="slidingCard">
+          <div className="slidingCard2">
             <button className="toRemoveBTN" onClick={() => removeToCart(id)}>Remove</button>
           </div>
-        </div>
+      </div>
       </div>
   )
 }
