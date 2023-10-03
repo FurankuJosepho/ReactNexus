@@ -19,6 +19,7 @@ header nav input {
   padding: 10px;
   border: none;
   border-radius: 10px;
+  width: 134%;
 }
 .navbar {
   display: flex;

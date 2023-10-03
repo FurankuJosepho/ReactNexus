@@ -2,6 +2,7 @@ import "../CSS/header.css";
 import { useState } from "react";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import { Link } from "react-router-dom";
+import SearchBar from "./search";
 function header() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [openLinks, setOpenLinks] = useState(false);
@@ -36,7 +37,7 @@ function header() {
           </Link>
           <Link to="/cart">CART</Link>
           <Link to="/live">LIVE</Link>
-          <input type="text" placeholder="Search you Games here.." />
+          <SearchBar/>
         </ul>
       </nav>
     </header>
