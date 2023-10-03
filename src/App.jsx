@@ -17,12 +17,12 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/store" exact element={<Store />} />
-            <Route path="/login" exact element={<Login />} />
-            <Route path="/signup" exact element={<Signup />} />
-            <Route path="/cart" exact element={<Profile />} />
-            <Route path="/live" exact element={<Live />} />
+            <Route path="/" exact element={<Home/>} />
+            <Route path="/store" exact element={<Store/>} />
+            <Route path="/login" exact element={<Login/>} />
+            <Route path="/signup" exact element={<Signup/>} />
+            <Route path="/cart" exact element={<Profile/>} />
+            <Route path="/live" exact element={<Live/>} />
           </Routes>
         </Router>
         <Footer />

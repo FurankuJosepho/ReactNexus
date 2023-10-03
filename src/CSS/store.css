@@ -71,3 +71,18 @@
     width: 100%;
     height: auto;
 }
+.cartProducts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 105px;
+}
+.productContainer2{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.productContainer2 img {
+    border-radius: 10px;
+    width: 179px;
+}
