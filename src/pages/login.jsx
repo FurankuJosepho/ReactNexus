@@ -37,6 +37,9 @@ function Login() {
       alert("No account exists with the provided credentials.");
     }
   };
+  const undermaintenance = () => {
+    alert("This page is undermaintenance")
+  }
   return (
     <section className="forms">
       <div className="form-content">
@@ -68,7 +71,7 @@ function Login() {
                 </a>
               </div>
               <div className="button input-box">
-                <input type="submit" value="Sumbit" />
+                <input type="submit" value="Sumbit" onClick={undermaintenance} />
                 {loginError && <p>Login failed. Check your credentials.</p>}
               </div>
               <div className="text sign-up-text">

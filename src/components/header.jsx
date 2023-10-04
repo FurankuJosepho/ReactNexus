@@ -22,9 +22,7 @@ function header() {
         </Link>
         <div className="hiddenLinks">
           <Link to="/store">SHOP</Link>
-          <Link to="/login" id="login">
-            LOGIN
-          </Link>
+          <Link to="/login" id="login">LOGIN</Link>
           <Link to="/cart">CART</Link>
           <Link to="/live">LIVE</Link>
         </div>
@@ -32,11 +30,10 @@ function header() {
         <ul className="links">
           <span className="close-btn material-symbols-rounded">close</span>
           <Link to="/store">SHOP</Link>
-          <Link to="/login" id="login">
-            LOGIN
-          </Link>
+          <Link to="/login" id="login">LOGIN</Link>
           <Link to="/cart">CART</Link>
           <Link to="/live">LIVE</Link>
+          <Link to="/chat">CHAT</Link>
           <SearchBar/>
         </ul>
       </nav>

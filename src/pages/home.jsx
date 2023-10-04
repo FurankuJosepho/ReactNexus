@@ -18,6 +18,9 @@ import Mir4 from "../assets/Mir4.jpg";
 import Sos from "../assets/SOS.jpg";
 function Home() {
   const navigate = useNavigate();
+  const undermaintenance = () => {
+    alert("This page is undermaintenance")
+  }
   return (
     <div className="Parent">
       <section className="container homeContainer">
@@ -51,7 +54,7 @@ function Home() {
                     <img src={Stray} alt="Stray" />
                   </div>
                   <div className="content">
-                    <a href="#" className="install">
+                    <a href="#" className="install" onClick={undermaintenance}>
                       ₱584.96
                     </a>
                   </div>
@@ -68,8 +71,8 @@ function Home() {
                     <img src={Forza} alt="Stray" />
                   </div>
                   <div className="content">
-                    <a href="#" className="install">
-                      ₱584.96
+                    <a href="#" className="install" onClick={undermaintenance}>
+                      ₱2,999.00
                     </a>
                   </div>
                 </div>
@@ -85,8 +88,8 @@ function Home() {
                     <img src={Mir4} alt="Stray" />
                   </div>
                   <div className="content">
-                    <a href="#" className="install">
-                      ₱584.96
+                    <a href="#" className="install" onClick={undermaintenance}>
+                      Free Install
                     </a>
                   </div>
                 </div>
@@ -102,8 +105,8 @@ function Home() {
                     <img src={Sos} alt="Stray" />
                   </div>
                   <div className="content">
-                    <a href="#" className="install">
-                      ₱584.96
+                    <a href="#" className="install" onClick={undermaintenance}>
+                      ₱1,050.00
                     </a>
                   </div>
                 </div>
