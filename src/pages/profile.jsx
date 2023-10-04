@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { ShopContext } from "../context/shopContext";
 import { PRODUCTS } from "../games";
 import Cartitem from "../components/itemCart";
+import OhMyvee from "../assets/OhMyvee.jpg"
 import "../CSS/profile.css"
 
 
@@ -10,8 +11,8 @@ function Profile() {
   const { gamesItems, totalCartAmount } = useContext(ShopContext);
   const totalAmount = totalCartAmount();
 
-  const [name, setName] = useState('Frank');
-  const [username, setUsername] = useState('Frankie 123');
+  const [name, setName] = useState('');
+  const [username, setUsername] = useState('');
   const [isEditMode, setIsEditMode] = useState(false);
 
     // This is for the button that are going to hangle the funtionc about Edit Profile
@@ -47,15 +48,15 @@ function Profile() {
   return (
     <section className="d-flex">
       <div className="info left">
-      <img id="profile-image" src="https://cdn.oneesports.gg/cdn-data/2022/10/MLBB_MPL_PH_S10_MVP_BlacklistInternational_OhMyV33nus.webp" alt=""/>
+      <img id="profile-image" src={OhMyvee} alt="image1"/>
       <label htmlFor="image-upload" className="upload">Choose Picture</label>
             <input type="file" id="image-upload" className="upload" accept="jpg." onChange={handleImageChange}/>
         <form id="name-form">
-          <input id="name" type="text" placeholder="Name" value={name} className="Name" onChange={(e) => setUsername(e.target.value)}
+          <input id="name" type="text" placeholder="Name" value={name} className="Name" onChange={(e) => setName(e.target.value)}
           disabled={!isEditMode}/>
         </form>
         <form id="username-form">
-          <input id="username" type="text" placeholder="Username" value={username} className="userName" onChange={(e) => setName(e.target.value)}
+          <input id="username" type="text" placeholder="Username" value={username} className="userName" onChange={(e) => setUsername(e.target.value)}
           disabled={!isEditMode}/>
         </form>
         <div className="editBTN">
