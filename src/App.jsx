@@ -7,6 +7,7 @@ import Live from "./pages/live";
 import Store from "./pages/store";
 import Profile from "./pages/profile";
 import Signup from "./pages/signup";
+import Chat from "./pages/chat";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ShopContextProvider } from "./context/shopContext";
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/signup" exact element={<Signup/>} />
             <Route path="/cart" exact element={<Profile/>} />
             <Route path="/live" exact element={<Live/>} />
+            <Route path="/chat" exact element={<Chat/>} />
           </Routes>
         </Router>
         <Footer />

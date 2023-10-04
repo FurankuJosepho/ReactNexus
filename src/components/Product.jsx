@@ -6,6 +6,10 @@ function Product(props) {
   // eslint-disable-next-line react/prop-types, no-unused-vars
   const { id, game, price, gameImages } = props.data;
   const { addToCart } = useContext(ShopContext);
+
+  const undermaintenance = () => {
+    alert("This page is undermaintenance")
+  }
   return (
     <div className="productContainer">
       <div className="productCard">
@@ -17,6 +21,9 @@ function Product(props) {
         <div className="slidingCard">
           <button className="addToCart" onClick={() => addToCart(id)}>
             Add to Cart
+          </button>
+          <button className="addToCart" onClick={() => undermaintenance()}>
+            View
           </button>
         </div>
       </div>

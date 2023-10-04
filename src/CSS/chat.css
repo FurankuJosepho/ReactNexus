@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Sportypo";
+  src: url("../Nexus.ttf") format("truetype");
+}
+/* Chat container */
+.chat-container {
+    width: 54rem;
+    margin: 14px auto;
+    margin-left: 0rem;
+    border-radius: 8px;
+    background-color: #36393f;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+  
+  /* Chat messages */
+  .chat-messages {
+    padding: 10px;
+    height: 25rem;
+  }
+  
+  /* Individual message styles */
+  .message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    max-width: 70%;
+  }
+  
+  /* User message styles */
+  .message.user {
+    background-color: #162e2ebd;
+    color: #98d5be;
+    justify-content: flex-start;
+  }
+  
+  /* Bot message styles */
+  .message.bot {
+    background-color: #4e545c;
+    color: #fff;
+    justify-content: flex-start;
+  }
+  
+  /* Message content styles */
+  .message-content {
+    word-wrap: break-word;
+    font-size: 16px;
+  }
+  
+  /* Chat input styles */
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #40444b;
+    color: #fff;
+  }
+  
+  .SendingBTN {
+    background-color: #162e2e;
+    color: #98d5be;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  /* User avatar styles */
+.user-avatar {
+    margin-right: 10px;
+  }
+  
+  .user-avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .leftSideChat{
+    height: 33rem;
+    padding: 10px;
+    width: 12rem;
+    background-color:#2c2f35;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 9rem;
+    position: relative
+  }
+  .ChattingRoom{
+    display: flex;
+  }
+  .chat-Name{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #26282c;
+    border-radius: 10px;
+  }
+  .user-avatar2 img {
+    width: 52px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .UserChatName{
+    color: #98d5be;
+    font-size: 23px;
+    margin-left: 20px;
+  }
